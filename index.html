@@ -1,158 +1,204 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
 <head>
-		
-	<!-- Load stylesheets -->
-		<link type="text/css" rel="stylesheet" href="css/960.css" media="screen" /><!-- no need to edit, 960.gs Framework -->
-		<link type="text/css" rel="stylesheet" href="css/screen.css" media="screen" />
-		<link id="theme-colors" type="text/css" rel="stylesheet" href="css/themes/default.css" media="screen" /><!-- replace css/themes/xxxxxx.css with the theme you want to use -->
-		<link type="text/css" rel="stylesheet" href="css/print.css" media="print" />
-		<link type="text/css" rel="stylesheet" href="css/jquery.fancybox-1.3.4.css" media="screen" /><!-- no need to edit, lightbox css -->
-		<!--[if lt IE 7]><link type="text/css" rel="stylesheet" href="css/ie6.css" media="screen" /><![endif]-->
-	<!-- // Load stylesheets -->
-	
-	
-	<!-- Load Javascript / jQuery -->
-		<!--[if lt IE 7]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script><![endif]-->    
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-		<script type="text/javascript" src="js/superfish-combined.js"></script>
-		<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
-		<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
-        <script type="text/javascript" src="js/jquery.tweet.js"></script>
-		<script type="text/javascript" src="js/general.js"></script>
-	<!-- // Load Javascript / jQuery -->
-	
-	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/gif" href="images/favicon.ico" />
-	<!-- // Favicon -->
-	
-</head>
-<body>
-	
-    
-	<div id="outer" class="clearfix">
-	
-        
-        <div id="topbar" class="clearfix">
-            
-            <div class="container_12">
-                
-                <div class="grid_6">
-                </div><!-- //grid_6 -->
 
-                <div class="grid_4">
-                </div><!-- //grid_4 -->
-                
-                <div class="grid_2">
-                    <form title="Search!" action="search.html" method="get" class="clearfix" id="searchform">
-                        <input type="text" value="" size="15" id="s" name="s" class="rounded" />
-                        <input type="submit" value="Seach" id="searchsubmit" title="Search the Site" />
-                    </form>
-                </div><!-- //grid_2 -->
-                
-            </div><!-- //container_12 -->
-            
-        </div><!-- //topbar -->
-            
-            
-		<div id="header" class="clearfix">          
-        	
-        	<div class="container_12">
-            	
-           		<div class="grid_12" id="header-container">
-                    
-                    <div id="logo">
-                        <h1><a href="index.html" title="Go to the home page"><img src="images/logo-trans.png" alt="Logo" /></a></h1>
-                    </div><!-- //logo -->
-            
-            	</div><!-- //grid_12 -->
-            
-			</div><!-- //container_12 -->
-            
-        
-        </div><!-- //header -->
-        
-        
-        <div id="main" class="clearfix">
-        	
-            <div class="container_12">
-            	
-				<div class="grid_12">
-				
-				
-					<div id="promo_01" class="promo-container primary-promo-container">
-						
-						<ul class="promo-navigation clean"></ul><!-- //promo-navigation (auto generated) -->
-						
-						<ul class="promos clean">
-							<li><a href="#"><img src="images/promos/promo01.jpg" alt="Promo" /></a></li>
-							<li class="hidden"><a href="#"><img src="images/promos/promo02.jpg" alt="Promo" width="940" height="400" /></a></li>
-							<li class="hidden"><a href="#"><img src="images/promos/promo03.jpg" alt="Promo" width="940" height="400" /></a></li>
-						</ul><!-- // promo list -->
-						
-					</div><!-- //promo-container -->
-					<script type="text/javascript">
-						jQuery(function($){
-							
-							// Full options at http://jquery.malsup.com/cycle/options.html
-							$('#promo_01 .promos').cycle({
-								fx: 		'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-								pager: 		'#promo_01 .promo-navigation',
-								pause: 		1
-							});
-							
-						});
-					</script>
-					
-				
-				</div><!--//grid_12-->
-                
-                
-                <div class="clear"></div><!--//clear columns-->
-                
-                
-                
-                <div class="grid_12">
-                    <h2>Check out my <a href="https://github.com/chrystalfaith/ruby-challenges">Ruby Challenges</a href> repository!</h2>
-                    
-                </div>
-                <div class="clear"></div><!--//clear columns-->
-                
-                <div class="grid_12">
-                    <p class="quotebox">
-                        <small class="right">Leonardo Da Vinci</small>
-                        Simplicity is the ultimate sophistication.
-                    </p>
-                </div><!--//grid_12-->
-                
-				
-                
-                
-            </div><!-- //container_12 -->
-        
-        </div><!-- //main -->
-        
-        
-        
-        
-        <div id="footer" class="clearfix">
-        	<div class="container_12">
-                
-            </div><!--//container_12-->
-        </div><!-- //footer -->
-       	
-        <div id="footer-bottom" class="clearfix">
-            <div class="container_12">
-            	<div class="grid_12">
-                    <p class="left">&copy; 2015</p>
-                    <p class="right"><a href="#" class="scroll-top" title="Back to the Top">TOP</a></p>
-                </div>
-            </div><!--//container_12-->
-        </div>
-        
-        
-	</div><!-- //outer -->
-	
-	<!-- insert analytics -->
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="keywords" content="HTML5 Template" />
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>My Responsive Resume</title>
+
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<!-- CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="js/isotope/isotope.css" rel="stylesheet">
+	<link href="css/prettyphoto.css" rel="stylesheet">
+	<link rel="stylesheet" href="js/owl-carousel/owl.carousel.css"/>
+	<link rel="stylesheet" href="js/owl-carousel/owl.theme.css"/>
+	<link rel="stylesheet" href="js/owl-carousel/owl.transitions.css"/>
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Google Font & Icon Fonts -->
+	<link href="css/ico/style.css" rel="stylesheet">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+<div class="white-bdr-left"></div>
+<div class="white-bdr-right"></div>
+<div class="white-bdr-top"></div>
+<div class="white-bdr-bottom"></div>
+
+<div class="body">
+	<!-- Side Navigation -->
+	<a id="menu-toggle" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+	<!-- <nav id="sidebar-wrapper">
+		<a id="menu-close" class="pull-right toggle"><i class="icon-cross"></i></a>
+		<ul class="sidebar-nav">
+			<li class="logo">
+				<a href="./index.html">My Resume</a>
+			</li>
+			<li><a href="#page-top" class="page-scroll">Home <i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#aboutme" class="page-scroll">About Me <i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#services" class="page-scroll">Services <i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#resume" class="page-scroll">Resume <i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#works" class="page-scroll">Works <i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#featured" class="page-scroll">Featured Works <i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#blog" class="page-scroll">Blog <i class="fa fa-angle-right"></i></a></li>
+			<li><a href="#contact-wrap" class="page-scroll">Contact <i class="fa fa-angle-right"></i></a></li>
+		</ul>
+	</nav> -->
+
+	<!-- Intro -->
+	<div class="content-wrap">
+		<div class="cw-inner">
+			<div class="profile_info">
+				<h1>Chrystal Boulanger<span>Creative Consultant</span></h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- About Me -->
+	<div class="inner-content">
+		<div id="aboutme">
+			<div class="aboutme-content">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row about-me">
+								<div class="col-md-5">
+									<img src="images/profile1.jpg" class="profile-img img-responsive" alt=""/>
+								</div>
+								<div class="col-md-7">
+									<p>I am Chrystal and I am a creative consultant that helps small businesses realize their visual identities in both web and print. I've worked in this field for 15+ years and am adding Ruby on Rails development to my repertoire. Check out my <a href=https://github.com/chrystalfaith/ruby-challenges>Ruby Challenges</a> repository on Github.</p>
+								</div>
+							</div>
+							<div class="row">
+
+								<!-- Skills -->
+								<div class="col-md-3 skills-wrap">
+									<h5><span>Skills</span></h5>
+									<ul class="skills" id="skills">
+										<li>
+											<h6>Photoshop</h6>
+											<div class="skill-bar skill-anim"><span style="width:95%"></span></div>
+										</li>
+										<li>
+											<h6>Illustrator</h6>
+											<div class="skill-bar skill-anim"><span style="width:100%"></span></div>
+										</li>
+										<li>
+											<h6>HTML5</h6>
+											<div class="skill-bar skill-anim"><span style="width:95%"></span></div>
+										</li>
+										<li>
+											<h6>Javascript</h6>
+											<div class="skill-bar skill-anim"><span style="width:45%"></span></div>
+										</li>
+									</ul>
+								</div>
+
+								<!-- Skills 2 -->
+								<div class="col-md-3 skills-wrap">
+									<ul class="skills" id="skills">
+										<li>
+											<h6>InDesign</h6>
+											<div class="skill-bar skill-anim"><span style="width:90%"></span></div>
+										</li>
+										<li>
+											<h6>Dreamweaver</h6>
+											<div class="skill-bar skill-anim"><span style="width:80%"></span></div>
+										</li>
+										<li>
+											<h6>CSS3</h6>
+											<div class="skill-bar skill-anim"><span style="width:85%"></span></div>
+										</li>
+										<li>
+											<h6>Python</h6>
+											<div class="skill-bar skill-anim"><span style="width:35%"></span></div>
+										</li>
+									</ul>
+								</div>
+
+								<!-- Stats -->
+								<div class="col-md-6">
+									<div id="stats">
+										<h5><span>Awards & Stats</span></h5>
+										<ul class="stats">
+											<li>
+												<i class="icon-trophy"></i>
+												<h4><span class="stat1">50</span>Awards Won</h4>
+											</li>
+											<li>
+												<i class="icon-users"></i>
+												<h4><span class="stat2">150</span>Client works</h4>
+											</li>
+											<li>
+												<i class="icon-chart"></i>
+												<h4><span class="stat3">400</span>Projects</h4>
+											</li>
+										</ul>
+										<ul class="social">
+											<li><a href="#" class="fa fa-twitter"></a></li>
+											<li><a href="#" class="fa fa-facebook"></a></li>
+											<li><a href="#" class="fa fa-dribbble"></a></li>
+											<li><a href="#" class="fa fa-linkedin"></a></li>
+											<li><a href="#" class="fa fa-google-plus"></a></li>
+											<li><a href="#" class="fa fa-instagram"></a></li>
+											<li><a href="#" class="fa fa-skype"></a></li>
+											<li><a href="#" class="fa fa-rss"></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>&copy; 2015 Chrystal Boulanger. All rights reserved</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/isotope/isotope.pkgd.js"></script>
+<script src="js/owl-carousel/owl.carousel.js"></script>
+<script src="js/plugin.js"></script>
+<script src="js/main.js"></script>
+
 </body>
 </html>
